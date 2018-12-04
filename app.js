@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
     //res.setHeader('Content-Type', 'text/plain');
       res.writeHead(200, {'Content-Type': 'text/html'});
       res.write('<title>http - Node.js Manual &amp; Documentation</title>');
-      res.write('Hello World Sawasdee krub\n');
+      res.write('Hello World pipeline krub\n');
       res.end();
       });
     
